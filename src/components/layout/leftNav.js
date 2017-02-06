@@ -17,10 +17,10 @@ export default class LeftNav extends React.Component {
 	        <div class="tab  ">
 	            <i class="glyphicon glyphicon-user activeTab  "></i>
 	        </div>
-	        <Stack/>
-            <Stack/>
-            <Stack/>
-            <Stack/>
+	        <Stack text="frontend"/>
+            <Stack text="middleware"/>
+            <Stack text="Server"/>
+            <Stack text="Database"/>
     	</div>
     );
   }
