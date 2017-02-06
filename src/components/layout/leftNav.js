@@ -15,8 +15,8 @@ export default class LeftNav extends React.Component {
      	<div class="vertical-menu">
 	        	
 	        <Stack text="Shantanu" glifclass="user"/>
-	        <Stack text="frontend" glifclass="blackboard"/>
-           <Stack text="middleware" glifclass="transfer"/>
+	        <Stack text="Frontend" glifclass="blackboard"/>
+           <Stack text="Middleware" glifclass="transfer"/>
             <Stack text="Server" glifclass="open"/>
             <Stack text="Database" glifclass="duplicate"/>
     	</div>
