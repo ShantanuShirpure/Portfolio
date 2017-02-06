@@ -1,5 +1,5 @@
 import React from 'react'
-import TabPane from './../../components/layout/tab'
+import TabPane from './../../components/dumbComponents/tab'
 import AspMVC from '../Assets/aspmvc.png'
 import Webapi from '../Assets/webapi.png'
 import Bluemix from '../Assets/bluemix.png'

@@ -1,5 +1,5 @@
 import React from 'react'
-import TabPane from './../../components/layout/tab'
+import TabPane from './../../components/dumbComponents/tab'
 import RRimg from '../Assets/ReactRedux.png'
 import Angimg from '../Assets/Angular.png'
 import Bimg from '../Assets/bootstrap.png'

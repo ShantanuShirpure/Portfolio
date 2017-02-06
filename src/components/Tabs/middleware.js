@@ -1,13 +1,13 @@
 import React from 'react'
-import TabPane from './../../components/layout/tab'
-import SqlServer from '../Assets/sqlServer.png'
-import MemSql from '../Assets/MemSql.jpg'
-import mongoDb from '../Assets/mongodb.png'
-import Druid from '../Assets/druid.png'
+import TabPane from './../../components/dumbComponents/tab'
+import Ion from '../Assets/iON_Logo.png'
+import MQ from '../Assets/MQ.png'
+import Solace from '../Assets/solace.png'
+import FIX from '../Assets/FIX.png'
 
 
 
-export default class Database extends React.Component {
+export default class Middleware extends React.Component {
   render() {
     // const { title } = this.props;
 
@@ -16,14 +16,13 @@ export default class Database extends React.Component {
 
   <ul class="nav nav-tabs" role="tablist">
     <li role="presentation" class="active">
-    <a href="#home" aria-controls="home" role="tab" data-toggle="tab">
-    <TabPane imageInfo={SqlServer} /></a></li>
+    <a href="#home" aria-controls="home" role="tab" data-toggle="tab"><TabPane imageInfo={Ion} /></a></li>
     <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
-    <TabPane imageInfo={MemSql} /></a></li>
+    <TabPane imageInfo={MQ} /></a></li>
     <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">
-    <TabPane imageInfo={mongoDb} /></a></li>
+    <TabPane imageInfo={Solace} /></a></li>
     <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">
-    <TabPane imageInfo={Druid} /></a></li>
+    <TabPane imageInfo={FIX} /></a></li>
     
   </ul>
 

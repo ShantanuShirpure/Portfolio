@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router'
-import Stack from './../../components/layout/stack'
+import Stack from './../../components/dumbComponents/stack'
 
 
 export default class LeftNav extends React.Component {

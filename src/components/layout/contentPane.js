@@ -1,9 +1,9 @@
 import React from 'react'
 import {Link} from 'react-router'
-import FrontEndPane from './../../components/layout/frontend'
-import MiddleWare from './../../components/layout/middleware'
-import Server from './../../components/layout/Server'
-import Database from './../../components/layout/database'
+import FrontEndPane from './../../components/Tabs/frontend'
+import MiddleWare from './../../components/Tabs/middleware'
+import Server from './../../components/Tabs/Server'
+import Database from './../../components/Tabs/database'
 	
 export default class ContentPane extends React.Component {
 
