@@ -14,13 +14,11 @@ export default class LeftNav extends React.Component {
     return (
      	<div class="vertical-menu">
 	        	
-	        <div class="tab  ">
-	            <i class="glyphicon glyphicon-user activeTab  "></i>
-	        </div>
-	        <Stack text="frontend"/>
-            <Stack text="middleware"/>
-            <Stack text="Server"/>
-            <Stack text="Database"/>
+	        <Stack text="Shantanu" glifclass="user"/>
+	        <Stack text="frontend" glifclass="blackboard"/>
+           <Stack text="middleware" glifclass="transfer"/>
+            <Stack text="Server" glifclass="open"/>
+            <Stack text="Database" glifclass="duplicate"/>
     	</div>
     );
   }

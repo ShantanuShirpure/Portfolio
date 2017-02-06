@@ -11,11 +11,13 @@ export default class Stack extends React.Component {
 
   render() {
     console.log(this.props.text)
+    console.log('glyphicons glyphicons-'+ this.props.glifclass)
     return (
 	        	
 	        <div class="tab settings-tab">
-	            <i class="glyphicon glyphicon-cog"></i>
-              {this.props.text}
+	            <i class={'glyphicon glyphicon-'+ this.props.glifclass}></i>
+             {this.props.text} 
+             
 	        </div>
 
     );
