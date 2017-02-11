@@ -16,6 +16,7 @@ export default class Stack extends React.Component {
 	        	
 	        <div class="tab settings-tab">
 	            <i class={'glyphicon glyphicon-'+ this.props.glifclass}></i>
+              <br/>
              <span class="stackName">{this.props.text}</span> 
                        
 	        </div>

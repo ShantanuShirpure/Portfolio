@@ -24,9 +24,7 @@ export default class ContentPane extends React.Component {
      	<div class="content-pane">
        
        <FrontEndPane/>
-       <MiddleWare/>
-       <Server/>
-       <Database/>
+       {/*<MiddleWare/> <Server/> <Database/> */}
 
 </div>
       

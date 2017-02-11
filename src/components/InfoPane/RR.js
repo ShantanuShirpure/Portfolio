@@ -16,7 +16,7 @@ export default class Tab extends React.Component {
     return (
 	        	
 	        <div class="tab settings-tab">
-	            <img src={this.props.imageInfo} width="130" height="130" />  
+	            <img src={this.props.imageInfo} width="175" height="175" />  
 
                        
 	        </div>
