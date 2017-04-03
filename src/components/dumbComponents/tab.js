@@ -11,7 +11,7 @@ export default class Tab extends React.Component {
   }
 
   render() {
-    console.log(this.props.imageInfo + " this is image path")
+    //console.log(this.props.imageInfo + " this is image path")
     
     return (
 	        	

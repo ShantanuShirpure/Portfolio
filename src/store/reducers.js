@@ -1,9 +1,11 @@
 import { combineReducers } from 'redux'
 import locationReducer from './location'
+import profileReducer from './profileReducer'
 
 export const makeRootReducer = (asyncReducers) => {
   return combineReducers({
     location: locationReducer,
+    profile:profileReducer,
     ...asyncReducers
   })
 }

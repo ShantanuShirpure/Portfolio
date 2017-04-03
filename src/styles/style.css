@@ -1,5 +1,6 @@
 .vertical-menu{
-    height:100vh;
+    height:100%;
+    min-height: 105vh;
     width: 13%;
     background-color: #3788af;
     display: inline-block;
@@ -15,7 +16,8 @@
     
 }
 .content-pane{
-    height: 100vh;
+    height: 100%;
+    min-height: 105vh;
     width:  87%;
     background-color: #edf6fd;
     display: inline-block;
